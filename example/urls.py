@@ -15,5 +15,5 @@ def hello_world(request, name):
     })
 
 urlpatterns = [
-  path(r'hello/<name>', hello_world),
+  path(r'hello/<name>/', hello_world),
 ]
