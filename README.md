@@ -40,6 +40,8 @@ GREETING=Hi
 ```
 
 ### API Call
+NOTE: The ending slash `/` is required for Django
+
 Local:
 ```
 curl -X GET http://localhost/hello/world/
